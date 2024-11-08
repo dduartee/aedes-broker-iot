@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 RUN npm run build
 # Start the server using the production build
-CMD [ "node", "dist/index.js"" ]
+CMD [ "node", "dist/index.js" ]
 
 # Exposing server port
 EXPOSE 8443

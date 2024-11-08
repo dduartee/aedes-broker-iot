@@ -12,7 +12,7 @@ RUN npm install
 
 # Bundle app source
 COPY . .
-RUN npm build
+RUN npm run build
 # Start the server using the production build
 CMD [ "node", "dist/index.js"" ]
 

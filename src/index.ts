@@ -119,7 +119,7 @@ const server: Server = createServer(aedes.handle);
 
 // Iniciar o servidor e escutar na porta especificada
 server.listen(port, () => {
-    console.log('MQTT broker started and listening on port', port);
+    console.log(`MQTT broker started and listening on port ${port}`);
 });
 
 function getCurrentTime(): string {
